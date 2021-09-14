@@ -30,8 +30,8 @@ class Person {
 
 public class Main {
     public static void main(String[] args) {
-	    Person persons [] = new Person[10];
-	    persons[0] = new Person("Jim", 20);
+	Person persons [] = new Person[10];
+	persons[0] = new Person("Jim", 20);
         persons[1] = new Person("Kate", 18);
         persons[2] = new Person("Alice", 43);
         persons[3] = new Person("Paul", 13);
